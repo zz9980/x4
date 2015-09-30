@@ -1,5 +1,4 @@
-# x4
-Button &amp; Score
+# x4:  Button &amp; Score
 
 Make a button that changes th background color when it is clicked.
 
