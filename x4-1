@@ -1,0 +1,50 @@
+
+//x4
+//button & score
+float r=255, b=255, g=255;
+float r1;
+
+void setup() {
+  size(500,500);
+  
+  
+  
+}
+
+void draw(){
+  
+  scene();
+  button();
+ 
+}
+
+void scene() {
+  
+  background(r,b,g);
+  
+}
+
+void button(){
+  fill(255);
+  rect(50,50, 100,50);
+  fill(0);
+  text("Button", 75,75);
+  text("Click Me!", 70,90);
+  
+}
+
+void mousePressed(){
+
+}
+
+
+
+void mouseClicked() {
+   if ( mouseX >= 50 && mouseX <= 150 && mouseY >=50 && mouseY <=100 ) {
+      r = random(0,255);
+      b = random(0,255);
+      g = random(0,255);
+    }
+
+}  
+  
